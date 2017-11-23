@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Helvetica;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.25;
 }
@@ -54,6 +54,10 @@ nav a {
   color: black;
   text-decoration: none;
   padding: 8px 28px;
+}
+
+nav a:hover {
+  font-weight: bold;
 }
 
 nav .link {
@@ -110,6 +114,10 @@ h1 {
   text-decoration: none;
 }
 
+.start a:hover {
+  color: black;
+}
+
 .primary,
 #course-section {
   color: #78736B;
@@ -155,7 +163,7 @@ video {
   margin: 30px 0;
   border-bottom: .5px solid #78736B;
   border-left: .5px solid #78736B;
-  transition: all 750ms ease-out;
+  transition: all 500ms ease;
 }
 
 .about:hover,
@@ -217,8 +225,13 @@ video {
 }
 
 .course img {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
+  transition: all 500ms ease;
+}
+
+.course img:hover {
+  width: 100%;
 }
 
 .subject {
