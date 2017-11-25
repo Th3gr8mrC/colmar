@@ -120,14 +120,14 @@ h1 {
 
 .primary,
 #course-section {
-  color: #78736B;
+  color: #000000;
   background-color: hsl(202.1, 69.4%, 52.5%);
 }
 
 /* Secondary Banner and Exhibit */
 .secondary,
 .exhibit {
-  color: #78736B;
+  color: #000000;
   background-color: hsl(58.5, 87%, 91%);
 }
 
